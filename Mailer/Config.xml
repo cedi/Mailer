@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Targets count=500>
+	<Mail>example@example.de</Mail>
+	<Mail>example2@example.de</Mail>
+	<Mail>example3@example.de</Mail>
+	<Mail>example4@example.de</Mail>
+	<Mail>example5@example.de</Mail>
+	<Mail>example6@example.de</Mail>
+</Targets>
+
+<!-- Configure Email Server -->
+<MailConfig>
+
+	<Server>mail.test.de</Server>
+	<Port>25</Port>
+	<Username>admin</Username>
+	<Password>123456</Password>
+	<Absender>test@test.de</Absender>
+	<SSL>true</SSL>
+
+</MailConfig>
